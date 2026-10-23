@@ -18,3 +18,5 @@ Add the `org-export-wkhtmltopdf/` directory to `load-path`, then call `require`:
 C-c C-e p w    ; pdf via wkhtmltopdf
 C-c C-e p o    ; pdf via wkhtmltopdf and open
 ```
+
+If wkhtmltopdf location not in the path, change the value of `org-wkhtmltopdf-command` to the actual location of wkhtmltopdf.
